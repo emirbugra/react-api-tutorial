@@ -1,0 +1,170 @@
+{
+    "data": {
+        "rooms": {
+            "current_page": 1,
+            "data": [
+                {
+                    "id": 1,
+                    "last_message_at": "2021-12-03 08:23:11",
+                    "created_at": "2021-09-18 21:51:16",
+                    "updated_at": "2021-12-03 08:23:11",
+                    "title": "Artisan 14 Demo",
+                    "targetMember": {
+                        "id": 1,
+                        "chat_room_id": 1,
+                        "user_id": 35,
+                        "archived": 0,
+                        "created_at": "2021-09-18 21:51:16",
+                        "updated_at": "2021-09-18 21:51:16",
+                        "user": {
+                            "id": 35,
+                            "role_id": 2,
+                            "role_key": "craftsman",
+                            "lang_code": "en-US",
+                            "firstname": "Artisan 14",
+                            "lastname": "Demo",
+                            "email": "craftsman14@user.com",
+                            "facebook_id": null,
+                            "google_id": null,
+                            "status": "active",
+                            "created_at": "2021-06-16 19:30:45",
+                            "updated_at": "2021-06-16 19:30:45",
+                            "fullname": "Artisan 14 Demo",
+                            "profile": {
+                                "id": 35,
+                                "user_id": 35,
+                                "avatar": null,
+                                "email_verified_at": null,
+                                "phone": null,
+                                "phone_verified_at": null,
+                                "birthday": null,
+                                "gender": "prefer_not_to_say",
+                                "address": null,
+                                "company_description": null,
+                                "lat": null,
+                                "lng": null,
+                                "zip": null,
+                                "portfolio_images": null,
+                                "intervention_distance": 30,
+                                "email_notification": "per_day",
+                                "sms_notification": "no",
+                                "created_at": "2021-09-11 17:55:16",
+                                "updated_at": "2021-09-11 17:55:16"
+                            }
+                        }
+                    },
+                    "last_message": {
+                        "id": 37,
+                        "chat_room_id": 1,
+                        "chat_room_member_id": 2,
+                        "user_id": 20,
+                        "uuid": "a00ff1e3-1e72-4fcc-c3ed-2875f4f7775b",
+                        "sender_role": "peer",
+                        "message": "test",
+                        "media_url": null,
+                        "created_at": "2021-12-03 08:23:11",
+                        "updated_at": "2021-12-03 08:23:11"
+                    },
+                    "members": [
+                        {
+                            "id": 1,
+                            "chat_room_id": 1,
+                            "user_id": 35,
+                            "archived": 0,
+                            "created_at": "2021-09-18 21:51:16",
+                            "updated_at": "2021-09-18 21:51:16",
+                            "user": {
+                                "id": 35,
+                                "role_id": 2,
+                                "role_key": "craftsman",
+                                "lang_code": "en-US",
+                                "firstname": "Artisan 14",
+                                "lastname": "Demo",
+                                "email": "craftsman14@user.com",
+                                "facebook_id": null,
+                                "google_id": null,
+                                "status": "active",
+                                "created_at": "2021-06-16 19:30:45",
+                                "updated_at": "2021-06-16 19:30:45",
+                                "fullname": "Artisan 14 Demo",
+                                "profile": {
+                                    "id": 35,
+                                    "user_id": 35,
+                                    "avatar": null,
+                                    "email_verified_at": null,
+                                    "phone": null,
+                                    "phone_verified_at": null,
+                                    "birthday": null,
+                                    "gender": "prefer_not_to_say",
+                                    "address": null,
+                                    "company_description": null,
+                                    "lat": null,
+                                    "lng": null,
+                                    "zip": null,
+                                    "portfolio_images": null,
+                                    "intervention_distance": 30,
+                                    "email_notification": "per_day",
+                                    "sms_notification": "no",
+                                    "created_at": "2021-09-11 17:55:16",
+                                    "updated_at": "2021-09-11 17:55:16"
+                                }
+                            }
+                        },
+                        {
+                            "id": 2,
+                            "chat_room_id": 1,
+                            "user_id": 20,
+                            "archived": 0,
+                            "created_at": "2021-09-18 21:51:16",
+                            "updated_at": "2021-09-18 21:51:16",
+                            "user": {
+                                "id": 20,
+                                "role_id": 3,
+                                "role_key": "client",
+                                "lang_code": "en-US",
+                                "firstname": "Client 19",
+                                "lastname": "User",
+                                "email": "c19@user.com",
+                                "facebook_id": null,
+                                "google_id": null,
+                                "status": "active",
+                                "created_at": "2021-06-21 18:09:22",
+                                "updated_at": "2021-06-21 18:09:22",
+                                "fullname": "Client 19 User",
+                                "profile": {
+                                    "id": 20,
+                                    "user_id": 20,
+                                    "avatar": null,
+                                    "email_verified_at": null,
+                                    "phone": null,
+                                    "phone_verified_at": null,
+                                    "birthday": null,
+                                    "gender": "prefer_not_to_say",
+                                    "address": null,
+                                    "company_description": null,
+                                    "lat": null,
+                                    "lng": null,
+                                    "zip": null,
+                                    "portfolio_images": null,
+                                    "intervention_distance": 30,
+                                    "email_notification": "per_day",
+                                    "sms_notification": "no",
+                                    "created_at": "2021-09-11 17:54:46",
+                                    "updated_at": "2021-09-11 17:54:46"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "first_page_url": "https:\/\/api.adoptez1artisan.com\/chat\/getMyRooms?page=1",
+            "from": 1,
+            "next_page_url": null,
+            "path": "https:\/\/api.adoptez1artisan.com\/chat\/getMyRooms",
+            "per_page": 10,
+            "prev_page_url": null,
+            "to": 1
+        }
+    },
+    "status": "success"
+}

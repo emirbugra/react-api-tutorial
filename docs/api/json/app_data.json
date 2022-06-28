@@ -1,0 +1,363 @@
+{
+    "data": {
+        "user": {
+            "id": 1,
+            "role_id": 1,
+            "role_key": "admin",
+            "lang_code": "en-US",
+            "firstname": "Admin",
+            "lastname": "System",
+            "email": "admin@system.com",
+            "facebook_id": null,
+            "google_id": null,
+            "status": "active",
+            "created_at": "2021-09-11 17:54:46",
+            "updated_at": "2021-09-11 17:54:46",
+            "permissions": [
+                {
+                    "permission_key": "user_management",
+                    "admin": 1,
+                    "read": 1,
+                    "create": 1,
+                    "update": 1,
+                    "delete": 1
+                },
+                {
+                    "permission_key": "permission_management",
+                    "admin": 1,
+                    "read": 1,
+                    "create": 1,
+                    "update": 1,
+                    "delete": 1
+                },
+                {
+                    "permission_key": "role_management",
+                    "admin": 1,
+                    "read": 1,
+                    "create": 1,
+                    "update": 1,
+                    "delete": 1
+                },
+                {
+                    "permission_key": "system_settings_management",
+                    "admin": 1,
+                    "read": 1,
+                    "create": 1,
+                    "update": 1,
+                    "delete": 1
+                },
+                {
+                    "permission_key": "category_management",
+                    "admin": 1,
+                    "read": 1,
+                    "create": 1,
+                    "update": 1,
+                    "delete": 1
+                },
+                {
+                    "permission_key": "service_management",
+                    "admin": 1,
+                    "read": 1,
+                    "create": 1,
+                    "update": 1,
+                    "delete": 1
+                },
+                {
+                    "permission_key": "newsletter_management",
+                    "admin": 1,
+                    "read": 1,
+                    "create": 1,
+                    "update": 1,
+                    "delete": 1
+                },
+                {
+                    "permission_key": "blog_management",
+                    "admin": 1,
+                    "read": 1,
+                    "create": 1,
+                    "update": 1,
+                    "delete": 1
+                },
+                {
+                    "permission_key": "client_project_management",
+                    "admin": 1,
+                    "read": 1,
+                    "create": 1,
+                    "update": 1,
+                    "delete": 1
+                },
+                {
+                    "permission_key": "project_offering_management",
+                    "admin": 1,
+                    "read": 1,
+                    "create": 1,
+                    "update": 1,
+                    "delete": 1
+                },
+                {
+                    "permission_key": "location_management",
+                    "admin": 1,
+                    "read": 1,
+                    "create": 1,
+                    "update": 1,
+                    "delete": 1
+                },
+                {
+                    "permission_key": "country_management",
+                    "admin": 1,
+                    "read": 1,
+                    "create": 1,
+                    "update": 1,
+                    "delete": 1
+                },
+                {
+                    "permission_key": "state_management",
+                    "admin": 1,
+                    "read": 1,
+                    "create": 1,
+                    "update": 1,
+                    "delete": 1
+                },
+                {
+                    "permission_key": "city_management",
+                    "admin": 1,
+                    "read": 1,
+                    "create": 1,
+                    "update": 1,
+                    "delete": 1
+                },
+                {
+                    "permission_key": "county_management",
+                    "admin": 1,
+                    "read": 1,
+                    "create": 1,
+                    "update": 1,
+                    "delete": 1
+                }
+            ],
+            "fullname": "Admin System",
+            "profile": {
+                "id": 1,
+                "user_id": 1,
+                "avatar": null,
+                "email_verified_at": null,
+                "phone": null,
+                "phone_verified_at": null,
+                "birthday": null,
+                "gender": "prefer_not_to_say",
+                "address": null,
+                "company_description": null,
+                "lat": null,
+                "lng": null,
+                "zip": null,
+                "portfolio_images": null,
+                "intervention_distance": 30,
+                "email_notification": "per_day",
+                "sms_notification": "no",
+                "created_at": "2021-09-11 17:54:46",
+                "updated_at": "2021-09-11 17:54:46"
+            },
+            "role": {
+                "id": 1,
+                "key": "admin",
+                "name": "Admin",
+                "icon": "fas fa-users-cog",
+                "created_at": "2021-09-11 17:54:45",
+                "updated_at": "2021-09-11 17:54:45"
+            }
+        },
+        "menu": [
+            {
+                "iconClass": "Home",
+                "restRoute": null,
+                "route": "dashboard",
+                "title": "Dashboard",
+                "permissionKey": null,
+                "customRoutes": [],
+                "subMenuItems": [],
+                "meta": {
+                    "description": "Dashboard"
+                }
+            },
+            {
+                "iconClass": "Home",
+                "restRoute": "agent/offerRequests",
+                "route": null,
+                "title": "Client Projects",
+                "permissionKey": null,
+                "customRoutes": [],
+                "subMenuItems": [],
+                "meta": {
+                    "description": "Client projects"
+                }
+            },
+            {
+                "iconClass": "Home",
+                "restRoute": null,
+                "route": null,
+                "title": "Administration",
+                "permissionKey": "system_settings_management",
+                "customRoutes": [],
+                "subMenuItems": [
+                    {
+                        "iconClass": "Circle",
+                        "restRoute": "admin/categories",
+                        "route": null,
+                        "title": "Categories",
+                        "permissionKey": "category_management",
+                        "customRoutes": [],
+                        "subMenuItems": [],
+                        "meta": {
+                            "description": "Manage categories"
+                        }
+                    },
+                    {
+                        "iconClass": "Circle",
+                        "restRoute": "admin/services",
+                        "route": null,
+                        "title": "Services",
+                        "permissionKey": "service_management",
+                        "customRoutes": [],
+                        "subMenuItems": [],
+                        "meta": {
+                            "description": "Manage services"
+                        }
+                    },
+                    {
+                        "iconClass": "Circle",
+                        "restRoute": "admin/blogs",
+                        "route": null,
+                        "title": "Blogs",
+                        "permissionKey": "blog_management",
+                        "customRoutes": [],
+                        "subMenuItems": [],
+                        "meta": {
+                            "description": "Manage blogs"
+                        }
+                    },
+                    {
+                        "iconClass": "Circle",
+                        "restRoute": "admin/roles",
+                        "route": null,
+                        "title": "Roles",
+                        "permissionKey": "role_management",
+                        "customRoutes": [],
+                        "subMenuItems": [],
+                        "meta": {
+                            "description": "Manage system roles"
+                        }
+                    },
+                    {
+                        "iconClass": "Circle",
+                        "restRoute": "admin/permissions",
+                        "route": null,
+                        "title": "Permissions",
+                        "permissionKey": "permission_management",
+                        "customRoutes": [],
+                        "subMenuItems": [],
+                        "meta": {
+                            "description": "Manage user permissions"
+                        }
+                    },
+                    {
+                        "iconClass": "Circle",
+                        "restRoute": "admin/system-settings",
+                        "route": null,
+                        "title": "System Settings",
+                        "permissionKey": "system_settings_management",
+                        "customRoutes": [],
+                        "subMenuItems": [],
+                        "meta": {
+                            "description": "Manage the system settings, smtp settings, user registration etc..."
+                        }
+                    },
+                    {
+                        "iconClass": "Circle",
+                        "restRoute": "admin/users",
+                        "route": null,
+                        "title": "Users",
+                        "permissionKey": "user_management",
+                        "customRoutes": [],
+                        "subMenuItems": [],
+                        "meta": {
+                            "description": "Manage all users"
+                        }
+                    },
+                    {
+                        "iconClass": "Circle",
+                        "restRoute": null,
+                        "route": null,
+                        "title": "Locations",
+                        "permissionKey": "location_management",
+                        "customRoutes": [],
+                        "subMenuItems": [
+                            {
+                                "iconClass": "Circle",
+                                "restRoute": "admin/countries",
+                                "route": null,
+                                "title": "Countries",
+                                "permissionKey": "country_management",
+                                "customRoutes": [],
+                                "subMenuItems": [],
+                                "meta": {
+                                    "description": "Manage countries"
+                                }
+                            },
+                            {
+                                "iconClass": "Circle",
+                                "restRoute": "admin/states",
+                                "route": null,
+                                "title": "States",
+                                "permissionKey": "state_management",
+                                "customRoutes": [],
+                                "subMenuItems": [],
+                                "meta": {
+                                    "description": "Manage countries"
+                                }
+                            },
+                            {
+                                "iconClass": "Circle",
+                                "restRoute": "admin/cities",
+                                "route": null,
+                                "title": "Cities",
+                                "permissionKey": "city_management",
+                                "customRoutes": [],
+                                "subMenuItems": [],
+                                "meta": {
+                                    "description": "Manage cities"
+                                }
+                            }
+                        ],
+                        "meta": {
+                            "description": "Manage all users"
+                        }
+                    }
+                ],
+                "meta": []
+            }
+        ],
+        "systemPermissions": [
+            "user_management",
+            "permission_management",
+            "role_management",
+            "system_settings_management",
+            "category_management",
+            "service_management",
+            "newsletter_management",
+            "blog_management",
+            "client_project_management",
+            "project_offering_management",
+            "location_management",
+            "country_management",
+            "state_management",
+            "city_management",
+            "county_management",
+            "chat_management"
+        ],
+        "userJobSearchPreferences": {
+            "zipCode": "75005",
+            "categoryId": "43"
+        }
+    },
+    "status": "success"
+}

@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+// node_modules imports
+import React from 'react'
+import {
+  HashRouter, Routes, Route,
+} from 'react-router-dom'
+
+// custom components
+import {Home} from './page/home'
+import {Login} from './page/login'
+import {Register} from './page/register'
+import axios from 'axios'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const token = localStorage.getItem('token')
+  if (token) {
+    axios.defaults.headers.common['Authorization'] = 'Bearer ' + token
+  }
+
+  return (<HashRouter>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="login" element={<Login />} />
+      <Route path="register" element={<Register />} />
+      <Route path="*" element={<Home />} />
+    </Routes>
+  </HashRouter>)
 }
 
-export default App;
+export default App
